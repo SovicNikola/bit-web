@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://www.example.com/login.php">
+        <p>
+            <b>Question 1</b>: Choose your date of birth? (day/month/year)
+            <select name="birth_day">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+            </select>
+            <select name="birth_month">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+            </select>
+            <select name="birth_year">
+                <option value="1993">1993</option>
+                <option value="1992">1992</option>
+                <option value="1991">1991</option>
+                <option value="1990">1990</option>
+                <option value="1989">1989</option>
+                <option value="1988">1988</option>
+                <option value="1987">1987</option>
+            </select>
+        </p>
+        <br/>
+        <b>Question 2</b>: Choose cities that you have visited?
+        <select name="cities[]" size="4" multiple="multiple">
+            <option value="Belgrade">Belgrade</option>
+            <option value="Novi Sad" selected="selected">Novi Sad</option>
+            <option value="Nis">Nis</option>
+            <option value="Kragujevac">Kragujevac</option>
+            <option value="Pristina">Pristina</option>
+        </select>
+
+
+    </form>
+
+</body>
+
+</html>

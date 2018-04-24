@@ -1,0 +1,43 @@
+
+body {
+    font-family: fantasy;
+    font-size: 25px;
+    background-color: rgb(247, 149, 149);
+}
+
+.par1 {
+    color: rgb(10, 23, 136);
+    background-color: black;
+    opacity: 0.3 ;
+}
+
+.par2 {
+    color: rgb(10, 23, 136);
+    background: rgba(250,0,0, 0.3);
+    border: 5px solid black;
+}
+
+.par3 {
+    color: #00ced1;
+    background-color: darkslategrey;
+}
+
+table {
+    border: 1px solid green;
+}
+
+.prva {
+    background-color:aliceblue;
+}
+.druga {
+    background-color: hotpink;
+}
+.treca {
+    background-color: firebrick;
+}
+.cetvrta {
+    background-color: khaki;
+}
+.peta {
+    background-color: salmon;
+}

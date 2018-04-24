@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>School quiz</title>
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <form action="http://www.example.com/login.php" method="get">
+        <p>
+            <b>Question 1</b>: What is the capital of Nicaragua?
+            <br/>
+            <input type="radio" name="capital" value="Belgrade" checked="checked" />Belgrade;
+            <br/>
+            <input type="radio" name="capital" value="Managua" />Managua;
+            <br/>
+            <input type="radio" name="capital" value="New Delphi" />New Delphi;
+        </p>
+
+        <p>
+            <b>Question 2</b>: Which rivers flow through Nicaragua?
+            <br/>
+            <input type="checkbox" name="river[]" value="Rio Coco" checked="checked" />Rio Coco;
+            <br/>
+            <input type="checkbox" name="river[]" value="Maina" />Maina;
+            <br/>
+            <input type="checkbox" name="river[]" value="Rio Tuma" />Rio Tuma;
+        </p>
+
+        <p>
+            <b>Question 3</b>: Describe current political situation in Nicaragua.
+            <br/>
+            <textarea name="situation" cols="60" rows="10">Enter your answer here... </textarea>;
+
+        </p>
+        <p>
+
+            <input type="reset" value="Reset">
+            <button>
+                <img src="http://www.smartliving.com.au/media/catalog/product/cache/1/image/bc0328b31da627a51feee80ba06f2230/f/i/fibaro-the-button-z-wave-zw5-red.jpg"
+                    alt="add" width="50" height="50"> Submit
+            </button>
+        </p>
+        <input type="hidden" name="username" value="pera.peric">
+
+    </form>
+</body>
+
+</html>
