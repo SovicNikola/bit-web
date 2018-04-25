@@ -1,0 +1,79 @@
+@font-face{
+
+    font-family: "fuji";
+    src: url("FjallaOne-Regular.ttf");
+}
+
+body {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+
+#par1 {
+
+    font-family: 'Gaegu', cursive;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-align: left;
+}
+
+#par2 {
+
+    font-family: lisbon;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: right;
+
+}
+
+
+
+#par3 {
+
+    font-family:  "fuji",'Roboto Slab','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-align: center;
+
+
+}
+
+#par4 {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+#navodnici1{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px
+}
+#navodnici2{
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#navodnici3{
+    color: rgb(0, 255, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#span1 {
+    font-weight: 700;
+    font-style: italic;
+}
+#lista{
+
+background-color: red;
+}
+
+#blic{
+    text-shadow: 45px -37px 0px rgba(0, 0, 0, 1);
+
+}
+a:link {
+    color:yellow;
+}
+#blic:link{
+    color:blue;
+}
