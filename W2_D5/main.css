@@ -1,0 +1,34 @@
+
+
+.ullist1 {
+    width: 200px;
+    list-style: circle;
+    list-style-position: inside;
+  
+}
+.nesto {
+color: red;
+
+}
+
+ul:nth-of-type(2) /* ovo je dosta bitno, pomaze dosta... !!!! */
+{
+list-style-position: inside;
+    list-style-image: url(images.png);
+    width: 200px;
+    color: green;
+
+
+}
+
+#orlist1 {
+
+    list-style: upper-alpha;
+    width: 200px;
+}
+
+#orlist2
+{
+   list-style-image: url(images.png);
+   width: 200px;
+}

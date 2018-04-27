@@ -1,0 +1,31 @@
+
+table {
+    border-collapse: collapse;
+}
+
+.th {
+
+    background-color:red;
+    color: white;
+}
+
+.img2
+
+{
+    height: 100px;
+}
+
+tr,td {
+    padding:10px;
+}
+
+
+
+tr:nth-of-type(odd) {
+
+    background-color: turquoise;
+}
+tr:hover{
+    background-color: yellow;
+    transform: scale(1.5); /* za povcanje dela */
+}

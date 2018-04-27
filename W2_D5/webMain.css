@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+div {
+display : inline-block;
+width : 32%;
+height: 300px;
+border: 1px solid black;
+box-sizing: border-box;
+}
+
+div:nth-of-type(1){
+    background-color: blue;
+    margin-left: 0 1%;
+ 
+}
+
+div:nth-of-type(2){
+    background-color: orange;
+    margin:0 1%;
+}
+div:nth-of-type(3){
+    background-color: purple;
+    margin-right: 1%;
+}

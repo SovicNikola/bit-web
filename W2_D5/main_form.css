@@ -1,0 +1,10 @@
+form {
+    background-color: rgb(224, 14, 14);
+    width: 700px;
+    border-radius: 20%,0;
+    margin:15px auto;
+
+}
+submit{
+    margin: 0 auto;
+}
