@@ -1,0 +1,23 @@
+div {
+    background-color: red;
+    overflow: hidden;
+    width: 960px;
+    margin: auto;
+}
+li {
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+ul {
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: springgreen;
+}
