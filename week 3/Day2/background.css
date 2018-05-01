@@ -1,0 +1,9 @@
+body{
+
+    background-image: url(./bart.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+ 
+}
