@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,2BAAK;EACD,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,MAAiB;EACxB,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,UAAU;EACtB,aAAa,EAAE,IAAI;;AAGvB,KAAM;EAEF,YAAY,EAAE,GAAG;;AAErB,MAAO;EAEH,YAAY,EAAE,IAAI;EAClB,MAAM,EAAE,aAAa;;AAEzB,MAAO;EAEH,YAAY,EAAE,KAAK",
+"sources": ["../sass/tripasusa.scss"],
+"names": [],
+"file": "tripasusa.css"
+}

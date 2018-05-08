@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAE;EACE,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,YAAY;EACrB,gBAAgB,EAAE,KAAK;EACvB,SAAU;IACN,gBAAgB,EAAE,MAAM;EAE5B,QAAS;IACL,gBAAgB,EAAE,MAAM;EAE5B,WAAY;IACR,WAAW,EAAE,IAAI",
+"sources": ["../sass/linkovi.scss"],
+"names": [],
+"file": "linkovi.css"
+}

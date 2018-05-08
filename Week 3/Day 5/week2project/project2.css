@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+header {
+    width: 100%;
+    
+}
+div.title {
+    background-image: url("images/banner31.jpg");
+    background-size: cover;
+    height: auto;
+}
+#top {
+    color: white;
+    padding: 100px 10% 100px 10%;
+
+}
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    
+}
+p#moto {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 250%;
+}
+#top a {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 5% auto;
+    background-color: rgb(29,111,178);
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    border-radius: 200px;
+    line-height: 35px;
+    
+}
+#firstUl {
+    width: 95%;
+    background-color: rgb(125,183,231);
+    list-style-type: none;
+    text-decoration: none;
+    padding-left:  0px;
+    margin: 10px auto;
+}
+.firstNav{
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0px;
+       
+}
+#build {
+    color: rgb(253,151,20);
+    border-bottom: 4px black solid;
+    border-left: 4px black solid;  
+    border-top: 4px black solid;
+    padding: 3px 0 3px 5px;
+    
+}
+.arrowCount{
+    display: block;
+    text-align: left;
+    
+    
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 15px;
+}
+.h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+section {
+    text-align: center;
+    padding: 0 auto;
+
+    
+}
+p.quote {
+    
+    text-align: left;
+    clear: left;
+    
+}
+hr {
+    width: 90px;
+    margin: 10px auto 0 auto;;
+    
+}
+.blueSubTitle {
+    color: lightblue;
+    font-size: 130%;
+    text-align: left;
+    margin-top: 35px; 
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+article {
+    padding: 0 40px 0 40px;
+}
+#about {
+    margin-top: 30px;
+    width: 100%;
+    
+
+}
+.williamson p {
+    font-size: 130%;
+}
+.williamson {
+    background-color: rgb(129,195,245);
+    height: 300px;
+    width: 70%;
+    margin: 35px auto 15px auto;;
+    
+
+}
+.williamson img{
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    
+}
+.ion-ios-star:first-of-type {
+margin-left: -35px;
+}
+.ion-ios-star {
+    
+    margin-left: -40px;
+}
+.ion-ios-star-half {
+    margin-left: -40px;
+
+}
+.face {
+    height: 70px;
+    border-radius: 50%;
+}
+.stars {
+    line-height: 100%;
+    padding-top: 5px;
+    text-align: initial;
+
+    
+    
+}
+.paragrafKomentar {
+    float: left;
+    clear: left;
+}
+.smallImages {
+    height: 20px;
+}
+contact {
+    
+    width: 100%;
+    display: inline-block;
+    height: 180px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#contact {
+    background-color: rgb(58,221,154);
+   
+    margin-top: 40px;
+}
+#contact p {
+    padding-bottom: 10px;
+    font-size: 150%;
+
+}
+#contact mail{
+    font-size: 100%;
+}
+#conect {
+    background-color: rgb(252,82,130);
+    
+}
+#conect p {
+    padding-bottom: 20px;
+    font-size: 150%;
+
+}
+
+#conect img {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+address {
+    background-color: rgb(55,108,228);
+    width: 100%;
+    display: inline-block;
+    height: 180px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    box-sizing: border-box;
+    
+    
+}
+address p {
+    padding-top: 20px;
+    font-size: 150%;
+
+}
+map {
+     width: 100%;
+    
+}
+#house {
+    height: 360px;
+    display: block;
+    margin:  0 auto;
+    width: 100%;   
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px; 
+    box-sizing: border-box;
+    border: 1px black solid;
+    padding-left: 1%;
+}
+textarea {
+    display: block;
+    width: 100%;
+    
+    margin-top: 15px; 
+    border: 1px rgb(119,119,119) solid;
+
+}
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+i {
+    font-size: 150%;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+#conect i {
+    font-size: 200%;
+    margin-top: 30px;
+    
+}
+.submit {
+    width: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(253,151,39);
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    font-weight: bold;
+
+}
+.footerA {
+        display: inline-block;
+color: white;
+text-decoration: none;
+    
+   
+}
+.footerli {
+    display: inline;
+    padding: 15px auto 10 auto;
+    padding-left: 15px;
+    
+   
+}
+ul:last-of-type {
+width: 100%;
+text-align: center;
+padding-bottom: 35px;
+padding-top: 35px;
+
+
+}
+#lastPharagraf {
+    text-align: center;
+    color: white;
+}
+footer {
+    background-color: black;
+    height: 150px;
+}
+#house {
+    background-color: rgb(129,195,245)
+}
+
+@media (min-width: 768px) {
+
+    
+    h1 {
+        position: absolute;
+        top:0%;
+        left: 1%;
+        color: white;
+        font-size: 120%;
+    }
+    #firstUl {
+        background-color: initial;
+        display: inline;
+        position: absolute;
+        top: 0%;
+        right: 1%;
+        width: 350px;
+        padding: 0;
+        
+    }
+    .firstNav {
+        
+        width: 25%;
+        display: inline;       
+        
+    }
+    #firstUl li {
+        display: inline;
+        padding-left: 30px;
+    }
+    .firstArticle {
+        position: relative;
+    }
+    #about {
+        position: absolute;
+        top: -30px;
+        right: 10px;
+        width: 350px;
+        height: 300px;
+        
+    }
+    .quote1{
+        float: left;
+        width: 350px;
+        clear: both;
+    }
+    p.quote {
+        float: left;
+        clear: left;
+    }
+    .arrowCount {
+        clear: both;
+    }
+    #wili1 {
+        float: left;
+        width: 49%;
+        clear: left;
+
+    }
+    #wili3 {
+        float: left;
+        width: 49%;
+        clear: left;
+
+    }
+    .williamson:last-of-type{
+        margin-top:0px;
+    }
+    #wili2 {
+        float: right;
+        width: 49%;
+        
+    }
+    #wili3 {
+        float: left;
+        width: 49%;
+        clear: left;
+
+    }
+    .touch {
+        clear: both;
+        padding-top: 80px;
+    }
+    
+    #contact, address {
+        width: 50%;
+        float: left;
+        clear: left;
+    }
+    #conect, #house {
+        width: 50%;
+        float: right;
+    }
+    #conect {
+        margin-top: 40px;
+    }
+    #house {
+        height: 180px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #divCenter {
+        width: 80%;
+        margin: 0 auto;
+               
+    }
+    .firstArticle,#about, .thirdSection {
+        
+        display: inline;
+               
+    }
+    hr {
+        width: 300px;
+    }
+    #secondSection {
+        float: left;
+        overflow: hidden;
+        width: 30%;
+    }
+    .thirdSection {
+        float: left;
+        padding-left: 4%;
+        width:  30%;
+    }
+    #about {
+        margin-inline-end: 150px;
+        position: initial;
+        float: left;
+        padding-left: 40px;
+    }
+    .quote {
+        width: 350px;
+    }
+    .no1 {
+        width: 350px;
+    }
+    .firstArticle {
+        display: inline;
+    }
+    
+   .secondArticle {
+       width: 85%;
+       margin: 0 auto;
+       overflow: hidden;
+   }
+   #wili1 {
+       display: inline;
+       width: 32%;
+       float: left;
+       height: 250px;
+    }
+   #wili2 {
+    display: inline;
+    width: 32%;
+    float: left;
+    margin-left: 20px;
+    height: 250px;
+}
+#wili3 {
+    display: inline;
+    width: 32%;
+    float: left;
+    clear: none;
+    margin-top: 35px;
+    margin-left: 20px;
+    height: 250px;
+
+    }
+    #contact, #conect, address, #house {
+        width:  25%;
+        display: inline;
+        float: left;
+        clear: none;
+    }
+    address, #house {
+        margin-top: 40px;
+    }
+    .forma {
+     width: 80%;
+ }
+ 
+    .footerli{
+     width: 30%;
+     display: inline;
+
+ }
+ .forma {
+     width: 61%;
+ }
+ .input {
+     width: 30%;
+     display: inline;
+    
+
+ }
+ .input:nth-of-type(2), .input:nth-of-type(3) {
+    margin-left: 4%;
+
+ }
+ 
+
+}
