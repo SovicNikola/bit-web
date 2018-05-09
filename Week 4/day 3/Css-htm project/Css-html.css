@@ -1,0 +1,32 @@
+.nav {
+    background-color: red;
+    margin-bottom: 5px;
+}
+a {
+    color: white;
+}
+img {
+    width: 100%;
+}
+.slika {
+    margin-bottom: 20px;
+}
+.card {
+    border: 0;
+    box-sizing: border-box;
+}
+.prvi {
+    padding-left:20px;
+    padding-right: 20px;
+}
+.list-group-item {
+    background-color: yellow;
+    
+}
+
+.end {
+
+background-color: purple;
+height: 33px;
+color: white;
+}

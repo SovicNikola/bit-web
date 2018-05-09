@@ -1,0 +1,13 @@
+.prvi, .treci {
+    height: 200px;
+    border: 1px solid black;
+}
+.drugi {
+    height: 100px;
+    border: 1px solid black;
+    
+}
+.unutra {
+    border: 1px solid black;
+    height: 100px;
+}
