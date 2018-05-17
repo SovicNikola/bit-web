@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #chat {
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            overflow: scroll;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+
+        <div id="chat">
+
+        </div>
+
+        <!-- <textarea name="message" id="msg" cols="30" rows="10"></textarea> -->
+        <br>
+        <br>
+        <input type="text" id="text_za_slanje">
+
+        <br>
+        <br>
+        <button onclick="slanje()"> Send Message </button>
+
+
+
+
+
+    </div>
+
+
+
+
+    <script>
+        var TZS = document.querySelector("#text_za_slanje");
+        var chat = document.querySelector("#chat")
+
+
+
+
+
+        function slanje() {
+            var message = TZS.value;
+            var newChatMessage = document.createElement('p');
+            newChatMessage.textContent = message;
+            chat.appendChild(newChatMessage);
+            // chat.innerHTML += "<p>" + message + "</p>"
+            TZS.value = "";
+        }
+        var elem = document.querySelector('#text_za_slanje');
+        elem.onkeyup = function (event) {
+
+            if (event.keyCode === 13) {
+                slanje();
+            }
+
+        }
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

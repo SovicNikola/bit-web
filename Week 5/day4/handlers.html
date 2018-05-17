@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        div {
+            height: 300px;
+        }
+
+        .boja {
+            background-color: red;
+
+        }
+    </style>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <button onclick="toggle()">Toggle Background</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button onclick="Automatic()"> Turn OFF</button>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+
+
+        function toggle() {
+            document.querySelector("div").classList.toggle("boja");
+        }
+        function Automatic() {
+            document.querySelector("button").setAttribute("disabled", "disabled");
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
