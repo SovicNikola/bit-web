@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-image: url("./bg.jpg");
+        /* background-size: cover; */
+        background-repeat: repeat-x;
+        background-position: bottom;
+        background-color: blue;
+
+    }
+
+    img {
+        position: absolute;
+        bottom: 9%;
+        right: 50%;
+        height: 200px;
+    }
+
+    .running {
+        display: none;
+    }
+</style>
+
+<body>
+    <img src="mario.png" alt="mario">
+    <img src="./mario_running.gif" alt="Running" class="running">
+
+
+
+    <script>
+        var body = document.querySelector('body');
+        var stay = document.querySelector('img');
+        var move = document.querySelector('img:last-of-type');
+        var stoji = 1;
+        var step = 0;
+        var c;
+        function moveGrass() {
+            step -= 10;
+            body.style.backgroundPositionX = step + 'px';
+
+        }
+        function runBabyRun() {
+            if (event.keyCode === 39 && stoji === 1) {
+                console.log('ovde sam');
+                stay.classList.toggle('running');
+                move.classList.toggle('running');
+                stoji = 0;
+                c = setInterval(moveGrass, 50); // mora da se doda u promenljivu jer f-ja clearInterval trazi ono sto setInterval vraca !!!
+            }
+        }
+
+        function stopBabyStop() {
+
+            if (event.keyCode === 39 && stoji === 0) {
+                stay.classList.toggle('running');
+                move.classList.toggle('running');
+                stoji = 1;
+                clearInterval(c);
+            }
+        }
+        body.addEventListener('keydown', runBabyRun);
+        body.addEventListener('keyup', stopBabyStop)
+
+    </script>
+</body>
+
+</html>

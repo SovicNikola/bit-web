@@ -9,15 +9,60 @@
 
 
     <style>
+        html {
+            height: 100%;
+        }
+
         body {
-            background-image: url(./field.png);
             background-size: cover;
+            height: 100%;
+            background-image: url(./field.png);
+            background-position: center center;
+            margin: 0;
+        }
+
+        img {
+            height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        button {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            background-color: red;
+            color: white;
         }
     </style>
 </head>
 
 <body>
+    <img src="./player.png" alt="Fudbaler">
+    <button onclick="Stop()"> Stop Moving</button>
+    <button onclick="Run()"> Run again</button>
+    <script>
 
+        var igrac = document.querySelector('img');
+        var body = document.querySelector('body');
+
+        body.addEventListener('click', Klik);
+        function Klik(event) {
+            var coordsX = event.clientX;
+            var coordsY = event.clientY;
+            igrac.style.top = coordsY + 'px'; // moraju da budu pikseli jer nece da procita bez !! 
+            igrac.style.left = coordsX + 'px'; // style referise na inline css deo !!!! 
+        }
+
+        function Stop() {
+            body.removeEventListener('click', Klik);
+        }
+
+        function Run() {
+            body.addEventListener('click', Klik);
+        }
+    </script>
 </body>
 
 </html>
